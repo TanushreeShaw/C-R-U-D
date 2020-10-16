@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+//your database url can be mongodb database url or mongodb atlas url
 mongoose.connect("<YOUR DATABASE URL>", 
 { useNewUrlParser: true }, (error) => {
   
