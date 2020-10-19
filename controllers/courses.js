@@ -10,7 +10,6 @@ router.get("/add", (req,res) => {
 
 router.post("/add", (req,res) => {
 
-    //setting
     var course = new CourseModel();
     course.courseName = req.body.courseName;
     course.courseDuration = req.body.courseDuration;
